@@ -7,9 +7,10 @@ package ex02;
 public class App {
     public static void main(String[] args) {
         Tiger tiger = new Tiger();
-        Doorman doorman = new Doorman();
+        DoormanProxy doorman = new DoormanProxy();
         Mouse mouse = new Mouse();
 
-        doorman.쫓아내(tiger);
+        doorman.쫓아내(mouse);
+
     }
 }
