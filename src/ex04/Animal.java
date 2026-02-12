@@ -1,4 +1,4 @@
-package ex01;
+package ex04;
 
 public abstract class Animal {
     public abstract String getName();
